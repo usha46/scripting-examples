@@ -4,7 +4,7 @@
 
 #####################################
 #addition of two numbers 
-#version =v1
+#version =v2
 #############################33
 #!/bin/bash
 
@@ -14,6 +14,9 @@ read num1
 echo "Enter second number:"
 read num2
 
-sum=$((num1 +num2))
+echo "Enter third number"
+read num3
+
+sum=$((num1 +num2 +num3))
 
 echo "Sum is: $sum"
