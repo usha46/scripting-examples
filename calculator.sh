@@ -3,8 +3,8 @@
 #Date : 18-06-2026
 
 #####################################
-#addition of two numbers 
-#version =v2
+#addition of three numbers 
+#version =v3
 #############################33
 #!/bin/bash
 
@@ -20,3 +20,17 @@ read num3
 sum=$((num1 +num2 +num3))
 
 echo "Sum is: $sum"
+
+#####################################
+## subtraction of two numbers
+echo "enter first number for subtraction "
+read num3
+
+echo "enter second number for subtraction"
+read num4
+
+
+diff=$((num3 -num4))
+echo "difference is:$diff"
+
+
