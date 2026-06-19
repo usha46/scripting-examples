@@ -1,10 +1,10 @@
 ##################################
 #Author :Usha
-#Date : 18-06-2026
+#Date : 19-06-2026
 
 #####################################
 #addition of three numbers 
-#version =v3
+#version =v4
 #############################33
 #!/bin/bash
 
@@ -32,5 +32,15 @@ read num4
 
 diff=$((num3 -num4))
 echo "difference is:$diff"
+
+################################################
+
+echo "enter first number for multiplication:  "
+read mul1
+
+echo "enter second number for multiplication: "
+read mul2
+
+echo "multiplication result : $((mul1 * mul2)) "
 
 
